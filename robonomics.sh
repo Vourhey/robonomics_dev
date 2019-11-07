@@ -94,6 +94,8 @@ function help() {
         init        install all the necessary packages and dependencies
         mainnet     launch the Robonomics stack in Mainnet (airalab.lighthouse.5.robonomics.eth)
         sidechain   launch the Robonomics stack in Sidechain (airalab.lighthouse.5.robonomics.sid)
+
+    URL: https://github.com/airalab/robonomics_dev
     "
     echo "$__usage"
 }
