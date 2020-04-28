@@ -8,7 +8,7 @@ token: {
   "address": '0x5822dA6c600c1762568a0697FAc51D5F41038BF7'
 }
 cost: {
-  "uint256": '0'
+  "uint256": '20000000000000000000000000000'
 }
 lighthouse: {
   "address": '0xD40AC7F1e5401e03D00F5aeC1779D8e5Af4CF9f1'

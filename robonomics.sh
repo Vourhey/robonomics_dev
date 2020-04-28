@@ -66,16 +66,16 @@ function mainnet() {
         lighthouse_contract:="$LIGHTHOUSE.lighthouse.5.robonomics.eth" \
         keyfile:="$WORKSPACE/keyfile" \
         keyfile_password_file:="$WORKSPACE/keyfile_password_file" \
-        web3_http_provider:="https://mainnet.infura.io/v3/cd7368514cbd4135b06e2c5581a4fff7" \
-        web3_ws_provider:="wss://mainnet.infura.io/ws" &
+        web3_http_provider:="https://mainnet.infura.io/v3/4c1139da573f496d8f50becde9687df9" \
+        web3_ws_provider:="wss://mainnet.infura.io/ws/v3/4c1139da573f496d8f50becde9687df9" &
 
     sleep 5
 
     roslaunch ethereum_common erc20.launch \
         keyfile:="$WORKSPACE/keyfile" \
         keyfile_password_file:="$WORKSPACE/keyfile_password_file" \
-        web3_http_provider:="https://mainnet.infura.io/v3/cd7368514cbd4135b06e2c5581a4fff7" \
-        web3_ws_provider:="wss://mainnet.infura.io/ws" &
+        web3_http_provider:="https://mainnet.infura.io/v3/4c1139da573f496d8f50becde9687df9" \
+        web3_ws_provider:="wss://mainnet.infura.io/ws/v3/4c1139da573f496d8f50becde9687df9" &
 }
 
 function sidechain() {
